@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(https://www.eatbanza.com/cdn/shop/collections/website-desktop1_1_1200x.jpg?v=1602556563);
+    background-size: 100% 740px;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color:  orange;
+    margin-left: 36%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+
+}
+.container .text{
+    position: relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid white;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.inp2{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid white;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+    color: white;
+}
+
+p span{
+    color: aqua;
+}
+.text button{
+    width: 250px;
+    background-color: aqua;
+    height: 40px;
+    color: black;
+    font-size: 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text button:hover{
+    border: 3px solid rgb(16, 164, 164);
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
